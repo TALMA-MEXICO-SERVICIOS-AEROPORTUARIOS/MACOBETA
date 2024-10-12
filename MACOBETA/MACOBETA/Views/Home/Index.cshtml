@@ -1,0 +1,99 @@
+﻿<!------------------------------------------------------------------------
+
+Creador: Rodrigo Esau Lopez Vazquez (RELV)
+Fecha de creacion: 19/09/2024
+Funcion: Muestra la vista principal, al entrar al Login
+
+version         Fecha           Modificador
+1.0             19/09/2024      RELV
+
+-------------------------------------------------------------------------->
+@* 
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@if (HttpContextAccessor.HttpContext.Session.GetString("User") != null)
+{
+    <button id="logout">Cerrar Sesión</button>
+    <button id="openModal1">Abrir Modal 1</button>
+    <button id="openModal2">Abrir Modal 2</button>
+
+    <div id="modal1" style="display:none;">
+        <button id="closeModal1">Cerrar</button>
+        <button id="openModal3">Abrir Modal 3</button>
+    </div>
+
+    <div id="modal2" style="display:none;">
+        <button id="closeModal2">Cerrar</button>
+    </div>
+
+    <div id="modal3" style="display:none;">
+        <button id="closeModal3">Cerrar</button>
+    </div>
+}
+else
+{
+    <p>No estás autenticado.</p>
+}
+
+<script>
+    document.getElementById("logout").onclick = function () {
+        window.location.href = '@Url.Action("Logout", "Account")';
+    };
+    document.getElementById("openModal1").onclick = function () {
+        document.getElementById("modal1").style.display = "block";
+    };
+    document.getElementById("closeModal1").onclick = function () {
+        document.getElementById("modal1").style.display = "none";
+    };
+    document.getElementById("openModal2").onclick = function () {
+        document.getElementById("modal2").style.display = "block";
+    };
+    document.getElementById("closeModal2").onclick = function () {
+        document.getElementById("modal2").style.display = "none";
+    };
+    document.getElementById("openModal3").onclick = function () {
+        document.getElementById("modal3").style.display = "block";
+    };
+    document.getElementById("closeModal3").onclick = function () {
+        document.getElementById("modal3").style.display = "none";
+    };
+</script>
+ *@
+@* @model LoginViewModel
+ *@
+ @{
+    Layout = null;
+}
+
+<!-- Modal de Index -->
+<div id="indexModal"  tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Bienvenido</h5>
+                <button type="button" class="close" aria-label="Close" onclick="closeIndexModal()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Contenido del modal de Index.</p>
+                <button type="button" class="btn btn-secondary" onclick="exitIndex()">Salir</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function closeIndexModal() {
+        $('#indexModal').hide();
+    }
+
+    function exitIndex() {
+        closeIndexModal();
+        loadModalContent('/Account/Login');
+    }
+
+    $(document).ready(function () {
+        $('#indexModal').show();
+    });
+</script>

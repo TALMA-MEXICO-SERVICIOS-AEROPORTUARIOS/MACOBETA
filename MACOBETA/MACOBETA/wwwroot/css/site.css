@@ -1,0 +1,66 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {    
+    /*Se agrega nuevo color a todo el fondo     RELV    19/09/2024*/
+    background-color: #003883;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/*Se agrega estilo para una imagen superior en el fondo     RELV    20/09/2024*/
+.header-image1 {
+    width: 100%; /* La imagen ocupa el 100% del ancho del header */
+    height: auto; /* limita alto de la imagen */
+    display: block; /* Elimina el espacio extra debajo de la imagen */    
+}
+
+.image-container {
+    position: fixed; /* Asegura que el contenedor esté fijo en la pantalla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca el contenedor detrás de otros elementos */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen de fondo */
+    transition: background-image 1s ease-in-out; /* Transición suave entre imágenes */
+}
+
+
+/*Se agrega estilo para una imagen inferior en el fondo     RELV    19/09/2024*/
+.footer-image {
+    width: 100%; /* La imagen ocupa el 100% del ancho del footer */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+}
+
+/*Se agrega estilo para fecha y locacion en el fondo     RELV    19/09/2024*/
+.overlay-text {
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    top: 80%; /* Centra verticalmente */
+    right: 1%; /* Cambia 'left' a 'right' */    
+    transform: translate(0, -50%); /* Ajusta la transformación */
+    color: white; /* Color del texto */
+    font-size: 14px; /* Tamaño del texto */
+    display: block; /* Elimina el espacio extra debajo de la imagen */    
+    font-style: italic;
+}

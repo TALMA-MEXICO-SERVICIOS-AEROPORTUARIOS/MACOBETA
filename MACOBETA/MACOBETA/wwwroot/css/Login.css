@@ -1,0 +1,149 @@
+﻿/********************************************
+
+Creador: Rodrigo Esau Lopez Vazquez (RELV)
+Fecha de creacion: 19/09/2024
+Funcion: Hoja de estilos para el login de usuarios
+
+version Fecha Modificador
+1.0 04/10/2024 RELV
+
+*********************************************/
+
+.xlabel {
+    display: table-cell;
+    color: #FFF;
+    padding-left: 5px;
+    font-size: 1em;
+    width: 10em;
+    text-shadow: 0px 0px 3px #000, 0px 0px 5px #FFF;
+    background-color: Transparent;
+}
+
+/*Cuadro semi-oscuro del Login*/
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 1px 1px 1.3em .3em #000;
+    width: fit-content;
+    /* opacity: 10; */
+    position: absolute;
+    left: 40% !important;
+    top: 30% !important;
+}
+
+/*Linea separadora entre inicio y datos*/
+.separator {
+    width: 100%;
+    margin: 10px;
+    background: #00D500;
+    border: 0;
+    opacity: 1;
+}
+
+/*editor de palabra INICIO*/
+.header {
+    color: white;    
+    margin: 0;
+    padding-right: 80%; /* Añade un poco de padding a la izquierda */
+}
+
+
+
+/*  Acomoda las cajas de texto */
+.xinput {
+    display: table-cell;   
+    width: auto;
+    transition: background-color 0.5s ease-in-out; /* Transición suave */
+}
+
+/* Le da estilo a las cajas de texto */
+.ui-xinput .xinput * {
+    border-style: none;
+    border-width: 0px;
+    background-color: Transparent;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000066 !important;
+    outline: none;
+    transition: background-color 0.5s ease-in-out; /* Transición suave */
+    height: 30px;
+    padding-left: 15px;
+}
+
+ /* Estilo cuando el input está enfocado */
+.xinput.focused div{
+    background-color: white;
+}
+
+.xinput.focused input {
+    background-color: white;
+}
+
+/*estilo para las barras de usuario  y login*/
+.ui-xinput .xinput {
+    background-color: #C4CFFF;
+    
+}
+.ui-xinput {
+    background-color: #00009b;
+    
+}
+.xlabel-col1 {
+    width: 100px !important;
+}
+
+
+/* crea un efecto visual de “desvanecimiento” */
+.xgrad-green {
+    -webkit-transition: all 0.5 s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background: rgb(0, 204, 0);
+    background: -moz-linear-gradient(90deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
+    background: -webkit-linear-gradient(90deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
+    background: -o-linear-gradient(90deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
+    background: -ms-linear-gradient(90deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
+    background: linear-gradient(180deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
+}
+    /* activa el “desvanecimiento” */
+    .xgrad-green:hover {
+        opacity: 0.7 !important;
+    }
+
+/* redondea los bordes */
+.ui-corn1 {    
+    border-radius: 10em;
+}
+
+/*Sombra para el boton*/
+.ui-shad {
+    box-shadow: 2px 2px .5em #000;
+    -moz-box-shadow: 2px 2px .5em #000;
+}
+
+/*Estilo del boton de inicio*/
+.ui-xbutton {
+    padding: .6em;
+    min-width: 7.5em;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    margin: .2em;
+}
+
+/*Centra el Login*/
+.esys-login { 
+    width: 40% !important;
+    left: 50% !important;
+    top: 50% !important;
+    margin-left: -20% !important;
+    margin-top: -10% !important;
+    min-width: 22em;
+    min-height: 10.5em;
+}

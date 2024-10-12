@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Resources\Images\car-in.png" />
+    <None Include="wwwroot\Resources\Images\car-out.png" />
+    <None Include="wwwroot\Resources\Images\dialog-buttons.png" />
+    <None Include="wwwroot\Resources\Images\Fondos\pict-01 1289x720.jpg" />
+    <None Include="wwwroot\Resources\Images\Fondos\pict-02 1289x720.jpg" />
+    <None Include="wwwroot\Resources\Images\Fondos\pict-03 1289x720.jpg" />
+    <None Include="wwwroot\Resources\Images\Fondos\pict-04 1289x720.jpg" />
+    <None Include="wwwroot\Resources\Images\Fondos\pict-05 1289x720.jpg" />
+    <None Include="wwwroot\Resources\Images\img-logo.png" />
+    <None Include="wwwroot\Resources\Images\kb-keys.png" />
+    <None Include="wwwroot\Resources\Images\sys-b-fad.png" />
+    <None Include="wwwroot\Resources\Images\sys-t-fad-l.png" />
+    <None Include="wwwroot\Resources\Images\sys-t-fad-m.png" />
+    <None Include="wwwroot\Resources\Images\sys-t-fad-r.png" />
+    <None Include="wwwroot\Resources\Images\sys-ui-action.png" />
+    <None Include="wwwroot\Resources\Images\sys-ui-all.png" />
+    <None Include="wwwroot\Resources\Images\sys-ui-bns.png" />
+    <None Include="wwwroot\Resources\Images\sys-widgets-all.png" />
+    <None Include="wwwroot\Resources\Images\wait.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Script\" />
+  </ItemGroup>
+
+</Project>
