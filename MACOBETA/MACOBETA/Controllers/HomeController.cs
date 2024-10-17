@@ -14,25 +14,23 @@ namespace MACOBETA.Controllers
             _logger = logger;
         }
 
-        //Autenticacion del usuario     RELV       19/09/2024
+        //Inicia el Index con el logeo comprobado     RELV       19/09/2024
         public IActionResult Index()
-        {
-            //if (HttpContext.Session.GetString("User") == null)
-            //{
-            //    return RedirectToAction("Login", "Account");
-
-            //    //ViewBag.ShowLoginModal = true;
-
-            //    //HttpContext.Session.GetString("User");
-            //    //return RedirectToAction();
-            //}
-            //return View();
+        {          
+            //ViewBag.Username = model.Username; // Almacena el nombre de usuario en ViewBag
             return View();
         }
 
-        public IActionResult Login()
+        //Inicia el Login al abrir la pagina    RELV    14/10/2024
+        public IActionResult Login(LoginViewModel model)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                HttpContext.Session.SetString("Username", model.Username);
+                return Json(new { success = true }); // Respuesta exitosa
+            }
+
+            return View(); // Muestra el Login
         }
 
         public IActionResult Privacy()

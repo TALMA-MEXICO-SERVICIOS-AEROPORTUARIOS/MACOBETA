@@ -1,0 +1,14 @@
+﻿/********************************************
+
+Creador: Rodrigo Esau Lopez Vazquez (RELV)
+Fecha de creacion: 17/10/2024
+Funcion: Hoja de estilos para el Index de usuarios
+
+version     Fecha           Modificador
+1.0         17/10/2024      RELV
+
+*********************************************/
+
+.index-modal-backdrop.modal-backdrop {
+    background-color: transparent !important; /* Fondo transparente */
+}

@@ -36,4 +36,11 @@ setInterval(changeBackground, 10000); // Cambia cada 10
 app.display.background.bgAnime = imageContainer;
 app.display.background.start();
 
-
+//Codigo para mostrar el modal de Login al inicio       RELV    14/10/2024
+$(document).ready(function () {
+    $('#loginModal').modal({
+        //Evitar que se cierre automaticamente el modal
+        backdrop: false,
+        keyboard: false
+    }).modal('show'); // Mostrar el modal de login al inicio
+});

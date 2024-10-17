@@ -13,6 +13,7 @@ C:\Users\rodrigo.lopez\Documents\BETAS\MACOBETA\MACOBETA\obj\Debug\net8.0\MACOBE
 C:\Users\rodrigo.lopez\Documents\BETAS\MACOBETA\MACOBETA\obj\Debug\net8.0\MACOBETA.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rodrigo.lopez\Documents\BETAS\MACOBETA\MACOBETA\obj\Debug\net8.0\MACOBETA.RazorAssemblyInfo.cache
 C:\Users\rodrigo.lopez\Documents\BETAS\MACOBETA\MACOBETA\obj\Debug\net8.0\MACOBETA.RazorAssemblyInfo.cs
+C:\Users\rodrigo.lopez\Documents\BETAS\MACOBETA\MACOBETA\obj\Debug\net8.0\MACOBETA.sourcelink.json
 C:\Users\rodrigo.lopez\Documents\BETAS\MACOBETA\MACOBETA\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\rodrigo.lopez\Documents\BETAS\MACOBETA\MACOBETA\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\rodrigo.lopez\Documents\BETAS\MACOBETA\MACOBETA\obj\Debug\net8.0\staticwebassets\msbuild.MACOBETA.Microsoft.AspNetCore.StaticWebAssets.props

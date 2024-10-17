@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MACOBETA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0c6cf31faedb9403b9576282e2c3c4dc9945d0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MACOBETA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MACOBETA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

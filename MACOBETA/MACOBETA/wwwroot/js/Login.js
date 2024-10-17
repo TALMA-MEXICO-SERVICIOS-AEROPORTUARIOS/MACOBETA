@@ -2,106 +2,109 @@
 
 Creador: Rodrigo Esau Lopez Vazquez (RELV)
 Fecha de creacion: 19/09/2024
-Funcion: Animaciones para el Login de usuarios
+Funcion: Logica para Logearse
 
-version Fecha Modificador
-1.0 04/10/2024 RELV
+version     Fecha           Modificador
+1.0         04/10/2024      RELV
 
 *********************************************/
 
-//Todo este codigo realiza la transicion de color de las cajas de texto de usuario y contraseña
-//document.getElementById('txtUserName').addEventListener('focus', function () {
-//    document.getElementById('inputContainer_UserName').classList.add('focused');
-//});
-//document.getElementById('txtUserName').addEventListener('blur', function () {
-//    document.getElementById('inputContainer_UserName').classList.remove('focused');
-//});
+// Logica para llamar modal del Index
+function loadIndex(data) {
 
-//document.getElementById('txtPassword').addEventListener('focus', function () {
-//    document.getElementById('inputContainer_Password').classList.add('focused');
-//});
-//document.getElementById('txtPassword').addEventListener('blur', function () {
-//    document.getElementById('inputContainer_Password').classList.remove('focused');
-//});
+    var username = data.Username;
+    $.get('/Home/Index', function (data) {
+        $('body').append(data);
+        showModal('indexModal');
+        $('#welcomeMessage').text(`Bienvenido, ${username}!`); // Pasar el nombre de usuario
+    });
+}
 
+//Cierra el modal que se le indica
+function closeModal(modalId) {
+    $(`#${modalId}`).modal('hide');
+}
 
+// Abre el modal que se le indique
+function showModal(modalId) {
+    $(`#${modalId}`).modal({
+        backdrop: false, // Evita cerrar al hacer clic fuera del modal
+        keyboard: false // Evita cerrar con la tecla Escape
+    }).modal('show');
+}
+
+// Logica para boton de contraseñas
+document.getElementById('togglePassword').addEventListener('click', function () {
+    const passwordInput = document.getElementById('password');
+    const passwordType = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+    passwordInput.setAttribute('type', passwordType);
+
+    // Cambiar el icono
+    this.innerHTML = passwordType === 'password' ? '<i class="bi bi-eye" aria-hidden="true"></i>' : '<i class="bi bi-eye-slash" aria-hidden="true"></i>';
+});
+
+// Funcion llamada por el boton de inicio
 function submitLogin() {
-    //var username = $('#username').val();
-    //var password = $('#password').val();
+    var username = $('#username').val();
+    var password = $('#password').val();
 
-    //$.post('@Url.Action("Login", "Account")', { username: username, password: password })
-    //    .done(function (data) {
-    //        $('#loginModal').modal('hide');
-    //        $('body').append(data);
-    //    })
-    //    .fail(function () {
-    //        alert('Error al iniciar sesión. Verifique sus credenciales.');
-    //    });
-
-    //Evita el resto de la ejecucion si estan vacios el usuario y la contraseña     RELV    07/10/2024
-    if ($('#username').val() == "" && $('#password').val() == "") {
-        bootbox.alert("esta vacio");
-        
+   
+    // Evita el resto de la ejecucion si estan vacios el usuario y la contraseña 
+    function showError(message) {
+        // Eliminar cualquier fondo existente de Bootbox antes de agregar uno nuevo
+        $('.bootbox.modal-backdrop').remove();
+        bootbox.alert({
+            title: 'ERROR AL INICIAR SESIÓN',
+            message: message,
+            className: 'custom-modal',
+            callback: function () {
+                // Remover el fondo al cerrar el modal
+                $('.bootbox.modal-backdrop').remove();
+            }
+        });
+    }
+    if (!username && !password) {
+        showError('Usuario y contraseña vacíos, ingrésalos por favor.');
+        return;
+    } else if (!username) {
+        showError('Usuario vacío, ingrésalo por favor.');
+        return;
+    } else if (!password) {
+        showError('Contraseña vacía, ingrésala por favor.');
         return;
     }
 
+    // Estructura para el modelo
     var model = {
-        Username: $('#username').val(),
-        Password: $('#password').val()
+        Username: username,
+        Password: password
     };
 
-    // Realiza una solicitud AJAX para enviar los datos
-    fetch('/Account/Login', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(model)
-    })
-        .then(response => {
-            if (response.ok) {
-                // Manejar la respuesta si es necesario                
-                console.log("Ingreso correcto de datos de usuario");
-            } else {
-                // Manejar errores
-                alert('Error al iniciar sesión. Verifique sus credenciales.');
-            }
-        });
+
+    // SI EL API DA RESPUESTA OK
+    let exito = 1;
+    // Ingresar la a logica para respuesta en caso de llamadas a la api por usuarios y contraseñas
+    //loginUser();
+    //return;
+
     
-    $('#loginModal').hide();
-    $('#indexModal').show();
-}
-
-function btnLogin_Click() {/*
-    let userName = document.getElementById("txtUserName").value;
-    let password = document.getElementById("txtPassword").value;
-
-    //Evita el resto de la ejecucion si estan vacios el usuario y la contraseña     RELV    07/10/2024
-    if (userName == "" && password == "") {
-        bootbox.alert("hola mundo");
+    // Cambio de modal
+    if (exito = 1) {
+        closeModal('loginModal');
+        loadIndex(model);
+        $('.modulo-custom').replaceWith(`<div class="modulo-custom">${username}</div>`); // Reemplazar el contenido del header
+    }
+    else if (exito = 2) {
+        showError('Contraseña o Usuario Incorrectos, ingreselas de nuevo.');
         return;
     }
-    
-    
-    // Realiza una solicitud AJAX para enviar los datos
-    fetch('/Account/Login2', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ userName: userName})
-    })
-        .then(response => {
-            if (response.ok) {
-                // Manejar la respuesta si es necesario
-            } else {
-                // Manejar errores
-            }
-        });
-    //loginUser();
-    //return;*/
-    
+    else {
+        showError('Error de conexión, intentelo mas tarde.');
+        return;
+    }
+        
 }
+
 
 //Constantes para numero de intentos y url de seguridad       RELV    25/09/2024
 let tryNumber = 1;
@@ -125,8 +128,8 @@ function Encrypt(value) {
 }
 
 function loginUser() {
-    let userName = Encrypt(document.getElementById("txtUserName").value);
-    let password = Encrypt(document.getElementById("txtPassword").value);
+    let userName = Encrypt(document.getElementById("#username").value);
+    let password = Encrypt(document.getElementById("#password").value);
 
     let data = JSON.stringify({
         userName: userName,

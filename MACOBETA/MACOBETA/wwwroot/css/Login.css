@@ -4,146 +4,92 @@ Creador: Rodrigo Esau Lopez Vazquez (RELV)
 Fecha de creacion: 19/09/2024
 Funcion: Hoja de estilos para el login de usuarios
 
-version Fecha Modificador
-1.0 04/10/2024 RELV
+version     Fecha           Modificador
+1.0         19/09/2024      RELV
 
 *********************************************/
 
-.xlabel {
-    display: table-cell;
-    color: #FFF;
-    padding-left: 5px;
-    font-size: 1em;
-    width: 10em;
-    text-shadow: 0px 0px 3px #000, 0px 0px 5px #FFF;
-    background-color: Transparent;
+
+
+/*Codigo de estilos de mensaje de error al iniciar session      RELV    14/10/2024*/
+.custom-modal .modal-content {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semioscuro */
+    color: white; /* Color del texto blanco */
+    box-shadow: 1px 1px 1.3em 0.3em #000; /* Sombra */
+    border-radius: 1em;
+    border: none;
+}
+.custom-modal .modal-header {
+    border-bottom: 3px solid green; /* Línea de separación en verde */
+}
+.custom-modal .modal-footer {
+    border-top: 3px solid green; /* Línea en el pie del modal en verde */
+}
+.custom-modal .close {
+    display: none; /* Ocultar la X de cierre */
 }
 
-/*Cuadro semi-oscuro del Login*/
-.overlay {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 8px;
+/*Codigo de estilos del Login      RELV    14/10/2024*/
+#loginModal .modal-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semioscuro */
+    color: white; /* Color del texto blanco */
+    box-shadow: 1px 1px 1.3em 0.3em #000; /* Sombra */
+    border-radius: 1.5em;
+    border:none;
+}
+#loginModal .modal-header {
+    border-bottom: 3px solid green; /* Línea de separación en verde*/
+}
+#loginModal .btn-custom {
+    background-color: rgb(0, 149, 0); /* Color del botón */
+    color: white; /* Color del texto */
+    border-radius: 20px; /* Esquinas bordeadas */
+    width: 100%; /* Ancho del botón */
+    margin-top: 30px; /* Espaciado adicional en la parte superior */
+}
+#loginModal .modal-body {
     display: flex;
-    align-items: center;
     flex-direction: column;
-    border: 2px solid rgba(255, 255, 255, 0.15);
-    box-shadow: 1px 1px 1.3em .3em #000;
-    width: fit-content;
-    /* opacity: 10; */
-    position: absolute;
-    left: 40% !important;
-    top: 30% !important;
+    align-items: center; /* Centrar horizontalmente */
 }
-
-/*Linea separadora entre inicio y datos*/
-.separator {
-    width: 100%;
-    margin: 10px;
-    background: #00D500;
-    border: 0;
-    opacity: 1;
+#loginModal .form-group {
+    width: 100%; /* Asegura que el grupo ocupe todo el ancho */
+    max-width: 400px; /* Limita el ancho máximo si es necesario */
+    background-color: #054199ad;
+    border-radius: 20px; /* Esquinas bordeadas de 20px */
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
 }
-
-/*editor de palabra INICIO*/
-.header {
-    color: white;    
-    margin: 0;
-    padding-right: 80%; /* Añade un poco de padding a la izquierda */
+#loginModal label {
+    width: 100%; /* Asegura que el grupo ocupe todo el ancho */
+    max-width: 100px; /* Limita el ancho máximo si es necesario */
+    margin-left: 15px;
 }
-
-
-
-/*  Acomoda las cajas de texto */
-.xinput {
-    display: table-cell;   
-    width: auto;
-    transition: background-color 0.5s ease-in-out; /* Transición suave */
-}
-
-/* Le da estilo a las cajas de texto */
-.ui-xinput .xinput * {
-    border-style: none;
-    border-width: 0px;
-    background-color: Transparent;
-    width: 100%;
-    font-size: 1em;
+#loginModal .form-control {
+    background-color: #A0AEEA; /* Color de fondo azul claro */
+    border-radius: 20px; /* Esquinas bordeadas de 20px */
+    color: #01056B;
     font-weight: bold;
-    color: #000066 !important;
-    outline: none;
-    transition: background-color 0.5s ease-in-out; /* Transición suave */
-    height: 30px;
-    padding-left: 15px;
+    border: none;
+}
+/* Cambiar el color del input cuando no se ha seleccionado */
+#loginModal .form-control:focus {
+    background-color: #e9ecef; /* Color azul cuando está seleccionado */
 }
 
- /* Estilo cuando el input está enfocado */
-.xinput.focused div{
-    background-color: white;
+/*Estilos para boton de contraseñas*/
+#togglePassword {
+    border: none; /* Sin color en el borde */
+    border-radius: 20px; /* Radio del borde de 20px */
+    color: white;
 }
-
-.xinput.focused input {
-    background-color: white;
+#togglePassword:hover {
+    background-color: rgb(1, 5, 107); /* Fondo al pasar el cursor */
+    color: white; /* Cambiar el color del texto/icono */
 }
-
-/*estilo para las barras de usuario  y login*/
-.ui-xinput .xinput {
-    background-color: #C4CFFF;
-    
-}
-.ui-xinput {
-    background-color: #00009b;
-    
-}
-.xlabel-col1 {
-    width: 100px !important;
-}
-
-
-/* crea un efecto visual de “desvanecimiento” */
-.xgrad-green {
-    -webkit-transition: all 0.5 s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    background: rgb(0, 204, 0);
-    background: -moz-linear-gradient(90deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
-    background: -webkit-linear-gradient(90deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
-    background: -o-linear-gradient(90deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
-    background: -ms-linear-gradient(90deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
-    background: linear-gradient(180deg, rgb(0, 204, 0) 0%, rgb(0, 149, 0) 70%);
-}
-    /* activa el “desvanecimiento” */
-    .xgrad-green:hover {
-        opacity: 0.7 !important;
-    }
-
-/* redondea los bordes */
-.ui-corn1 {    
-    border-radius: 10em;
-}
-
-/*Sombra para el boton*/
-.ui-shad {
-    box-shadow: 2px 2px .5em #000;
-    -moz-box-shadow: 2px 2px .5em #000;
-}
-
-/*Estilo del boton de inicio*/
-.ui-xbutton {
-    padding: .6em;
-    min-width: 7.5em;
-    border: 0;
-    cursor: pointer;
-    color: #fff;
-    margin: .2em;
-}
-
-/*Centra el Login*/
-.esys-login { 
-    width: 40% !important;
-    left: 50% !important;
-    top: 50% !important;
-    margin-left: -20% !important;
-    margin-top: -10% !important;
-    min-width: 22em;
-    min-height: 10.5em;
+ /*Estilo individual de input de contraseña*/
+.input-group {
+    background-color: #A0AEEA;
+    border-radius: 20px;
 }

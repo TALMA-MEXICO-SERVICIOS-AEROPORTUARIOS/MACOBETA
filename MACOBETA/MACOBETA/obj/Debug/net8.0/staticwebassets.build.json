@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "npK2/u/QsnTLDzsbIAuowPwRn4JANOt7NsREPTHy6us=",
+  "Hash": "g+XwB63/o6WP5oIy6B1YK1eiY//g9noC/YmuDpaXaiE=",
   "Source": "MACOBETA",
   "BasePath": "_content/MACOBETA",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MACOBETA.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\Index.css",
+      "SourceId": "MACOBETA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\",
+      "BasePath": "_content/MACOBETA",
+      "RelativePath": "css/Index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
       "Identity": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\Login.css",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Index.js",
+      "SourceId": "MACOBETA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\",
+      "BasePath": "_content/MACOBETA",
+      "RelativePath": "js/Index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Index.js"
     },
     {
       "Identity": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Login.js",

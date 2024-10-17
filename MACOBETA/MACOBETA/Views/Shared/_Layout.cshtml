@@ -8,29 +8,26 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/MACOBETA.styles.css" asp-append-version="true" />
-    <style>
-        .modal-backdrop {
-            display: none; /* Ocultar el fondo del modal */
-        }
 
-        .modal {
-            position: relative; /* Permitir que el modal sea interactivo */
-            z-index: 1050; /* Asegurar que el modal esté por encima del contenido */
-        }
-    </style>
+    @*Iconos de Bootstrap*@
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.css">
+
 </head>
 <body>
     <div class="image-container">
         <!--Datos e imagenes superiores del fondo      RELV    20/09/2024-->
-        <img src="~/Resources/Images/sys-def-sup.png" class="header-image1" />
+        <header>
+            <img src="~/Resources/Images/sys-def-sup.png" class="header-image" />
+            <div class="modulo-custom">MÓDULO MACO</div>
+        </header>
+        
 
+        <!--Llamada de los modales      RELV    20/09/2024-->
         <div class="container">
             <main role="main" class="pb-3">
                 @RenderBody()
             </main>
-        </div>
-
-        
+        </div>              
 
         <!--Datos e imagenes inferiores del fondo      RELV    19/09/2024-->
         <footer class="footer text-muted">
@@ -45,18 +42,6 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
-
-
-    <script>
-        $(document).ready(function () {
-            $('#loginModal').modal({
-                //Evitar que se cierre automaticamente el modal
-                backdrop: false,
-                keyboard: false
-            }).modal('show'); // Mostrar el modal de login al inicio
-        });
-    </script>
-   
 
     @await RenderSectionAsync("Scripts", required: false)
 

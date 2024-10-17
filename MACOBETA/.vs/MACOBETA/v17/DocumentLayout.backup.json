@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D1B3BB13-B183-4976-B930-A67996356891}|Elementos de la soluci\u00F3n{D1B3BB13-B183-4976-B930-A67996356891}|C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D1B3BB13-B183-4976-B930-A67996356891}|Elementos de la soluci\u00F3n{D1B3BB13-B183-4976-B930-A67996356891}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\wwwroot\\js\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\wwwroot\\js\\login.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|c:\\users\\rodrigo.lopez\\documents\\betas\\macobeta\\macobeta\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EAA9480B-571F-4B74-BE3E-76216887C8D2}|MACOBETA\\MACOBETA.csproj|solutionrelative:macobeta\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,93 +82,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "MACOBETA\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "MACOBETA\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T16:17:13.43Z",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-17T18:11:55.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MACOBETA\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MACOBETA\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAWwCEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T16:52:15.211Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Login.js",
-              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Login.js",
-              "RelativeDocumentMoniker": "MACOBETA\\wwwroot\\js\\Login.js",
-              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Login.js",
-              "RelativeToolTip": "MACOBETA\\wwwroot\\js\\Login.js",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEcAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "MACOBETA\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "MACOBETA\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAvwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-04T15:36:17.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T19:12:54.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "MACOBETA\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "MACOBETA\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAADgv0wAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T22:58:14.934Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MACOBETA\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MACOBETA\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-14T19:00:09.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MACOBETA\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MACOBETA\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-19T19:48:11.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T19:48:11.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MACOBETA\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MACOBETA\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAYwEQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-09T16:44:47.663Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\Login.css",
+              "RelativeDocumentMoniker": "MACOBETA\\wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\Login.css",
+              "RelativeToolTip": "MACOBETA\\wwwroot\\css\\Login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-14T17:09:01.936Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "MACOBETA\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "MACOBETA\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAGQAAAAEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "MACOBETA\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "MACOBETA\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-18T22:47:43.647Z",
+              "WhenOpened": "2024-10-11T16:17:13.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.js",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Login.js",
+              "RelativeDocumentMoniker": "MACOBETA\\wwwroot\\js\\Login.js",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Login.js",
+              "RelativeToolTip": "MACOBETA\\wwwroot\\js\\Login.js",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwF4AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-04T15:36:17.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MACOBETA\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MACOBETA\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T16:52:15.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.css",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\Index.css",
+              "RelativeDocumentMoniker": "MACOBETA\\wwwroot\\css\\Index.css",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\Index.css",
+              "RelativeToolTip": "MACOBETA\\wwwroot\\css\\Index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-17T16:39:16.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MACOBETA\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MACOBETA\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-09T16:44:47.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.js",
+              "DocumentMoniker": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Index.js",
+              "RelativeDocumentMoniker": "MACOBETA\\wwwroot\\js\\Index.js",
+              "ToolTip": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Index.js",
+              "RelativeToolTip": "MACOBETA\\wwwroot\\js\\Index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-17T16:23:28.026Z",
               "EditorCaption": ""
             }
           ]

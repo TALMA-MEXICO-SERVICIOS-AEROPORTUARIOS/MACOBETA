@@ -27,7 +27,7 @@ body {
 }
 
 /*Se agrega estilo para una imagen superior en el fondo     RELV    20/09/2024*/
-.header-image1 {
+.header-image {
     width: 100%; /* La imagen ocupa el 100% del ancho del header */
     height: auto; /* limita alto de la imagen */
     display: block; /* Elimina el espacio extra debajo de la imagen */    
@@ -63,4 +63,22 @@ body {
     font-size: 14px; /* Tamaño del texto */
     display: block; /* Elimina el espacio extra debajo de la imagen */    
     font-style: italic;
+}
+
+
+
+/*Estilos de modulo MACO*/
+.modulo-custom {
+    position: absolute; /* Posiciona el texto de forma absoluta */
+    top: 5%; /* Centra verticalmente */
+    right: 20%; /* Cambia 'left' a 'right' */
+    transform: translate(0, -50%); /* Ajusta la transformación */
+    color: white; /* Color del texto */
+    font-size: 20px; /* Tamaño del texto */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+    background-color: limegreen;
+    width: 40%;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bolder;
 }

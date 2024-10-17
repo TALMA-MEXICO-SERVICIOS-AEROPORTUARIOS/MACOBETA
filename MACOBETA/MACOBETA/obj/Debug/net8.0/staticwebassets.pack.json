@@ -85,6 +85,10 @@
       "PackagePath": "staticwebassets\\Resources\\Images\\wait.gif"
     },
     {
+      "Id": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
       "Id": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
@@ -95,6 +99,10 @@
     {
       "Id": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
     },
     {
       "Id": "C:\\Users\\rodrigo.lopez\\Documents\\BETAS\\MACOBETA\\MACOBETA\\wwwroot\\js\\Login.js",
